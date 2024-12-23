@@ -3,8 +3,9 @@
 A Brew _formula_ to build `poppler` with QT6 support.
 
 ### Why ?
-(https://github.com/orgs/Homebrew/discussions/3428)
-(https://github.com/orgs/Homebrew/discussions/1771)
+https://github.com/orgs/Homebrew/discussions/3428
+
+https://github.com/orgs/Homebrew/discussions/1771
 
 ## How do I install these formulae?
 
