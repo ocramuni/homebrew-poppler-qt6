@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-22.04
     permissions:
       actions: read
+      checks: read
       contents: write
       issues: read
       pull-requests: write
-      statuses: read
     steps:
       - name: Set up Homebrew
         uses: Homebrew/actions/setup-homebrew@master
