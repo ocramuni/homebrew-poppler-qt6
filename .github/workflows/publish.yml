@@ -11,16 +11,12 @@ jobs:
     runs-on: ubuntu-22.04
     permissions:
       actions: read
-      attestations: read
       checks: read
       contents: write
       deployments: read
-      discussions: read
       issues: read
       packages: read
-      pages: read
       pull-requests: write
-      repository-projects: read
       security-events: read
       statuses: read
     steps:
