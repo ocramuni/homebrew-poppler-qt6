@@ -11,11 +11,18 @@ jobs:
     runs-on: ubuntu-22.04
     permissions:
       actions: read
-      attestations: write
+      attestations: read
+      checks: read
       contents: write
+      deployments: read
+      discussions: read
       issues: read
-      packages: write
+      packages: read
+      pages: read
       pull-requests: write
+      repository-projects: read
+      security-events: read
+      statuses: read
     steps:
       - name: Set up Homebrew
         uses: Homebrew/actions/setup-homebrew@master
