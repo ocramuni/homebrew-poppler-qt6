@@ -13,11 +13,8 @@ jobs:
       actions: read
       checks: read
       contents: write
-      deployments: read
       issues: read
-      packages: read
       pull-requests: write
-      security-events: read
       statuses: read
     steps:
       - name: Set up Homebrew
